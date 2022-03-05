@@ -7,8 +7,8 @@ data = cv2.VideoCapture(video_pth)
 try:
 
     # creating a folder named data
-    if not os.path.exists('Data'):
-        os.makedirs('Data')
+    if not os.path.exists('extracted_frames_data'):
+        os.makedirs('extracted_frames_data')
 
 # if not created then raise error
 except OSError:
